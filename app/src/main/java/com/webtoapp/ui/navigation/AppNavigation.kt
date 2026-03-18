@@ -1040,6 +1040,7 @@ fun AppNavigation() {
             val billingManager: com.webtoapp.core.billing.BillingManager = org.koin.java.KoinJavaComponent.get(com.webtoapp.core.billing.BillingManager::class.java)
             SubscriptionScreen(
                 billingManager = billingManager,
+                authViewModel = authViewModel,
                 onBack = { navController.popBackStack() }
             )
         }
