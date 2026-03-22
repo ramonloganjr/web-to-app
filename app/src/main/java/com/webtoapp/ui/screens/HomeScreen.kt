@@ -56,11 +56,18 @@ fun HomeScreen(
     onCreateGalleryApp: () -> Unit = {},
     onCreateHtmlApp: () -> Unit = {},
     onCreateFrontendApp: () -> Unit = {},
+    onCreateNodeJsApp: () -> Unit = {},
+    onCreateWordPressApp: () -> Unit = {},
+    onCreatePhpApp: () -> Unit = {},
+    onCreatePythonApp: () -> Unit = {},
+    onCreateGoApp: () -> Unit = {},
     onEditApp: (WebApp) -> Unit,
     onEditAppCore: (WebApp) -> Unit = {},  // Class型专用编辑（核心配置）
     onPreviewApp: (WebApp) -> Unit,
     onOpenAppModifier: () -> Unit = {},
     onOpenAiSettings: () -> Unit = {},
+    onOpenAiCoding: () -> Unit = {},
+    onOpenAiHtmlCoding: () -> Unit = {},
     onOpenHtmlCoding: () -> Unit = {},
     onOpenThemeSettings: () -> Unit = {},
     onOpenBrowserKernel: () -> Unit = {},
@@ -897,6 +904,11 @@ fun AppTypeChip(appType: com.webtoapp.data.model.AppType) {
             Strings.appTypeFrontend,
             MaterialTheme.colorScheme.primaryContainer
         )
+        else -> Triple(
+            Icons.Outlined.Apps,
+            appType.name,
+            MaterialTheme.colorScheme.primaryContainer
+        )
     }
     
     val contentColor = when (appType) {
@@ -906,6 +918,7 @@ fun AppTypeChip(appType: com.webtoapp.data.model.AppType) {
         com.webtoapp.data.model.AppType.VIDEO,
         com.webtoapp.data.model.AppType.GALLERY -> MaterialTheme.colorScheme.onTertiaryContainer
         com.webtoapp.data.model.AppType.HTML -> MaterialTheme.colorScheme.onSecondaryContainer
+        else -> MaterialTheme.colorScheme.onPrimaryContainer
     }
     
     Surface(

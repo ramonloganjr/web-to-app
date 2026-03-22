@@ -15,6 +15,10 @@ class KeyManager(private val context: Context) {
     
     companion object {
         private const val TAG = "KeyManager"
+        
+        @Volatile private var instance: KeyManager? = null
+        fun getInstance(context: Context): KeyManager =
+            instance ?: synchronized(this) { instance ?: KeyManager(context).also { instance = it } }
     }
     
     // Cache的密钥（避免重复派生）

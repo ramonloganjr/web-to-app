@@ -4,9 +4,9 @@
 
 # WebToApp
 
-### 🚀 Transform Websites into Android Apps in Seconds
+### Transform Websites into Android Apps in Seconds
 
-**English** | [简体中文](README_CN.md)
+**English** | [简体中文](README_CN.md) | [Filipino](README_FIL.md)
 
 <p>
   <a href="https://github.com/shiahonb777/web-to-app/stargazers"><img src="https://img.shields.io/github/stars/shiahonb777/web-to-app?style=for-the-badge&logo=github&color=f4c542" alt="Stars"></a>
@@ -23,7 +23,7 @@
 
 <br/>
 
-> 📱 **No coding required** · Build APKs directly on your phone · **No Android Studio needed**
+> **No coding required** · Build APKs directly on your phone · **No Android Studio needed**
 
 <br/>
 
@@ -32,88 +32,88 @@
 ---
 
 <p align="center">
-  <b>🌟 Zero coding • One-click build • Feature-rich • Open source & free 🌟</b>
+  <b>Zero coding · One-click build · Feature-rich · Open source & free</b>
 </p>
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 <details open>
 <summary><b>Click to expand/collapse</b></summary>
 
-- [✨ Key Features](#-key-features)
-- [📸 Screenshots](#-screenshots)
-- [🎯 Use Cases](#-use-cases)
-- [📦 Quick Start](#-quick-start)
-- [📋 Feature Details](#-feature-details)
-- [🛠️ Tech Stack](#%EF%B8%8F-tech-stack)
-- [📁 Project Structure](#-project-structure)
-- [📖 Usage Guide](#-usage-guide)
-- [🔧 Build from Source](#-build-from-source)
-- [🧩 Extension Module System](#-extension-module-system)
-- [📢 Announcement Templates](#-announcement-templates)
-- [📜 Changelog](#-changelog)
-- [📬 Contact](#-contact)
+- [Key Features](#key-features)
+- [Screenshots](#screenshots)
+- [Use Cases](#use-cases)
+- [Quick Start](#quick-start)
+- [Feature Details](#feature-details)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Usage Guide](#usage-guide)
+- [Build from Source](#build-from-source)
+- [Extension Module System](#extension-module-system)
+- [Announcement Templates](#announcement-templates)
+- [Changelog](#changelog)
+- [Contact](#contact)
 
 </details>
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 <table>
 <tr>
 <td width="50%">
 
-### 🌐 Core Conversion
+### Core Conversion
 | Feature | Description |
 |---------|-------------|
-| 🌐 Website to App | Wrap any URL into standalone app |
-| 🎬 Media to App | Images/videos to fullscreen apps |
-| 💻 HTML to App | React/Vue/Next.js support |
-| 📦 One-Click Build | No Android Studio needed |
+| Website to App | Wrap any URL into standalone app |
+| Media to App | Images/videos to fullscreen apps |
+| HTML to App | React/Vue/Next.js support |
+| One-Click Build | No Android Studio needed |
 
 </td>
 <td width="50%">
 
-### 🤖 AI Powered
+### AI Powered
 | Feature | Description |
 |---------|-------------|
-| 🧩 Extension Modules | 10 built-in, 30+ templates |
-| 🤖 AI Development | Natural language coding |
-| 🎨 AI Icon Generator | Generate beautiful icons |
-| 🎵 Music Search | Online BGM with lyrics |
+| Extension Modules | 10 built-in, 30+ templates |
+| AI Development | Natural language coding |
+| AI Icon Generator | Generate beautiful icons |
+| Music Search | Online BGM with lyrics |
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### 🛡️ Security & Privacy
+### Security & Privacy
 | Feature | Description |
 |---------|-------------|
-| 🔐 APK Encryption | AES-256-GCM protection |
-| 🛡️ Browser Spoofing | UA & fingerprint spoofing |
-| 🚫 Hosts Blocking | Domain-level ad blocking |
-| 🌍 Isolated Environment | Multi-instance isolation |
+| APK Encryption | AES-256-GCM protection |
+| Browser Spoofing | UA & fingerprint spoofing |
+| Hosts Blocking | Domain-level ad blocking |
+| Isolated Environment | Multi-instance isolation |
 
 </td>
 <td width="50%">
 
-### ✨ Extra Features
+### Extra Features
 | Feature | Description |
 |---------|-------------|
-| 🖼️ Media Gallery | Built-in media manager |
-| 📱 APK Architecture | Multi-arch APK support |
-| 📋 Long Press Menu | Enhanced context menu |
-| 🌐 Browser Engine | Custom WebView kernel |
+| Media Gallery | Built-in media manager |
+| APK Architecture | Multi-arch APK support |
+| Long Press Menu | Enhanced context menu |
+| Browser Engine | Custom WebView kernel |
 
 </td>
 </tr>
 </table>
 
-## 📸 Screenshots
+## Screenshots
 
 <div align="center">
 <p>
@@ -136,13 +136,13 @@
 
 ---
 
-## 🎯 Use Cases
+## Use Cases
 
 <table>
 <tr>
 <td>
 
-| 📱 Personal | 🏢 Business |
+| Personal | Business |
 |------------|------------|
 | Quick website access | Enterprise internal systems |
 | Media showcase apps | Product demo apps |
@@ -152,7 +152,7 @@
 </td>
 <td>
 
-| 👨‍💻 Developer | 👨‍👩‍👧 Family |
+| Developer | Family |
 |-----------|----------|
 | Frontend project packaging | Kids learning apps |
 | H5 game packaging | Screen time control |
@@ -163,25 +163,25 @@
 </tr>
 </table>
 
-## 📦 Quick Start
+## Quick Start
 
 ```bash
-# 1️⃣ Clone the repository
+# 1. Clone the repository
 git clone https://github.com/shiahonb777/web-to-app.git
 
-# 2️⃣ Open in Android Studio
-# 3️⃣ Build and run on your device
-# 4️⃣ Start converting websites to apps!
+# 2. Open in Android Studio
+# 3. Build and run on your device
+# 4. Start converting websites to apps!
 ```
 
-> 💡 **Or download the APK directly from [Releases](https://github.com/shiahonb777/web-to-app/releases)**
+> **Or download the APK directly from [Releases](https://github.com/shiahonb777/web-to-app/releases)**
 
 ---
 
-## 📋 Feature Details
+## Feature Details
 
 <details>
-<summary><b>🌐 Core Features</b> (click to expand)</summary>
+<summary><b>Core Features</b> (click to expand)</summary>
 
 - **URL to App**: Enter any website URL to generate a standalone app
 - **Media to App**: Convert images/videos into independent apps
@@ -194,7 +194,7 @@ git clone https://github.com/shiahonb777/web-to-app.git
 </details>
 
 <details>
-<summary><b>🧩 Extension Module System</b></summary>
+<summary><b>Extension Module System</b></summary>
 
 - **Tampermonkey-like Scripts**: Inject custom JavaScript/CSS into webpages
 - **10 Built-in Modules**: Video downloader, Bilibili/Douyin/Xiaohongshu video extractor, video enhancer, web analyzer, dark mode, privacy protection, content enhancer, element blocker
@@ -209,7 +209,7 @@ git clone https://github.com/shiahonb777/web-to-app.git
 </details>
 
 <details>
-<summary><b>🤖 AI Module Development Agent</b></summary>
+<summary><b>AI Module Development Agent</b></summary>
 
 - **Natural Language Development**: Describe requirements in natural language, AI generates module code
 - **Syntax Check**: Automatic JavaScript/CSS syntax error detection
@@ -221,7 +221,7 @@ git clone https://github.com/shiahonb777/web-to-app.git
 </details>
 
 <details>
-<summary><b>🎨 AI Features</b></summary>
+<summary><b>AI Features</b></summary>
 
 - **Multi-Provider Support**: Google Gemini, OpenAI, GLM, Volcano, MiniMax, OpenRouter, etc.
 - **AI HTML Coding**: AI-assisted HTML/CSS/JS code generation
@@ -234,7 +234,7 @@ git clone https://github.com/shiahonb777/web-to-app.git
 </details>
 
 <details>
-<summary><b>✨ Integrated Features</b></summary>
+<summary><b>Integrated Features</b></summary>
 
 - **Splash Screen**: Support image/video splash animations with built-in video trimmer
 - **Background Music**: Add BGM playlist with LRC lyrics sync
@@ -258,7 +258,7 @@ git clone https://github.com/shiahonb777/web-to-app.git
 </details>
 
 <details>
-<summary><b>📤 Export Options</b></summary>
+<summary><b>Export Options</b></summary>
 
 - **Desktop Shortcut**: Create desktop icons, launch like native apps
 - **Build APK**: Generate standalone APK packages without Android Studio
@@ -268,7 +268,7 @@ git clone https://github.com/shiahonb777/web-to-app.git
 </details>
 
 <details>
-<summary><b>🎥 Media App Features</b></summary>
+<summary><b>Media App Features</b></summary>
 
 - **Image to App**: Full-screen image display with fill screen option
 - **Video to App**: Video playback with loop, audio toggle, autoplay (supports large video streaming)
@@ -280,7 +280,7 @@ git clone https://github.com/shiahonb777/web-to-app.git
 </details>
 
 <details>
-<summary><b>🎨 Theme System</b></summary>
+<summary><b>Theme System</b></summary>
 
 - **Multiple Themes**: Beautiful built-in theme styles
 - **Dark Mode**: Follow system or manual toggle
@@ -290,7 +290,7 @@ git clone https://github.com/shiahonb777/web-to-app.git
 </details>
 
 <details>
-<summary><b>⚡ App Modifier</b></summary>
+<summary><b>App Modifier</b></summary>
 
 - **App Scanner**: Automatically scan all installed apps
 - **Icon/Name Modifier**: Freely modify any app's icon and name
@@ -301,27 +301,27 @@ git clone https://github.com/shiahonb777/web-to-app.git
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
 
 | Category | Technology |
 |:--------:|:-----------|
-| 📝 Language | Kotlin 1.9+ |
-| 🎨 UI | Jetpack Compose + Material 3 |
-| 🏗️ Architecture | MVVM + Repository |
-| 🗄️ Database | Room |
-| 🌐 Network | OkHttp |
-| 🖼️ Image | Coil |
-| 🔐 Encryption | AES-256-GCM + PBKDF2 |
-| ✍️ Signing | JarSigner + Keystore |
-| 🌍 i18n | Dynamic Switching |
-| 📱 Min SDK | Android 6.0 (API 23) |
-| 🎯 Target SDK | Android 16 (API 36) |
+| Language | Kotlin 1.9+ |
+| UI | Jetpack Compose + Material 3 |
+| Architecture | MVVM + Repository |
+| Database | Room |
+| Network | OkHttp |
+| Image | Coil |
+| Encryption | AES-256-GCM + PBKDF2 |
+| Signing | JarSigner + Keystore |
+| i18n | Dynamic Switching |
+| Min SDK | Android 6.0 (API 23) |
+| Target SDK | Android 15 (API 35) |
 
 </div>
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 app/src/main/java/com/webtoapp/
@@ -384,7 +384,7 @@ app/src/main/java/com/webtoapp/
 └── util/                      # Utilities
 ```
 
-## 📖 Usage Guide
+## Usage Guide
 
 ### Create Website App
 1. Click "Create App" button on home screen
@@ -448,7 +448,7 @@ app/src/main/java/com/webtoapp/
    - **Shortcut**: Create desktop shortcut with new icon
    - **Clone Install**: Generate new APK and install as independent app
 
-## 🔧 Build from Source
+## Build from Source
 
 ### Requirements
 - Android Studio Hedgehog (2023.1.1) or later
@@ -470,6 +470,11 @@ cd web-to-app
 ./gradlew assembleRelease
 ```
 
+> **Note:** If building from the command line (outside Android Studio), you need to create a `local.properties` file in the project root with your Android SDK path:
+> ```
+> sdk.dir=/path/to/your/android/sdk
+> ```
+
 ### Signing Configuration
 For Release builds, configure signing in `app/build.gradle.kts`:
 ```kotlin
@@ -483,21 +488,23 @@ signingConfigs {
 }
 ```
 
-## 🧩 Extension Module System
+> **Tip:** For debug builds, no signing configuration is needed — just run `./gradlew assembleDebug`.
+
+## Extension Module System
 
 ### Built-in Modules
 | Module | Function |
 |--------|----------|
-| ⬇️ Video Downloader | Auto-detect webpage videos, supports MP4 and Blob stream download |
-| 📺 Bilibili Video Extractor | Extract Bilibili highest quality video and audio stream URLs |
-| 🎬 Douyin Video Extractor | Extract Douyin watermark-free video URLs |
-| 📱 Xiaohongshu Video Extractor | Extract Xiaohongshu video playback URLs |
-| ⚡ Video Enhancer | Speed control (0.5x-5x), picture-in-picture, background play, block app redirect |
-| 🔧 Web Analyzer | Element inspector, network monitor, cookie manager, console injection |
-| 🌙 Advanced Dark Mode | Smart color inversion, image brightness control, scheduled toggle |
-| 🛡️ Privacy Protection | Ad blocking, anti-fingerprint tracking, click hijack protection, external link warning |
-| 📝 Content Enhancer | Force copy, selection translate, long screenshot, Markdown conversion |
-| 🚫 Element Blocker | Block ads, popups, and specified elements |
+| Video Downloader | Auto-detect webpage videos, supports MP4 and Blob stream download |
+| Bilibili Video Extractor | Extract Bilibili highest quality video and audio stream URLs |
+| Douyin Video Extractor | Extract Douyin watermark-free video URLs |
+| Xiaohongshu Video Extractor | Extract Xiaohongshu video playback URLs |
+| Video Enhancer | Speed control (0.5x-5x), picture-in-picture, background play, block app redirect |
+| Web Analyzer | Element inspector, network monitor, cookie manager, console injection |
+| Advanced Dark Mode | Smart color inversion, image brightness control, scheduled toggle |
+| Privacy Protection | Ad blocking, anti-fingerprint tracking, click hijack protection, external link warning |
+| Content Enhancer | Force copy, selection translate, long screenshot, Markdown conversion |
+| Element Blocker | Block ads, popups, and specified elements |
 
 ### Module Categories
 - Content Filter, Content Enhance, Style Modifier, Theme
@@ -521,7 +528,7 @@ hideAds();
 new MutationObserver(hideAds).observe(document.body, { childList: true, subtree: true });
 ```
 
-## 📢 Announcement Templates
+## Announcement Templates
 
 10 beautiful announcement popup templates:
 - **Minimal** - Clean and simple
@@ -535,7 +542,7 @@ new MutationObserver(hideAds).observe(document.body, { childList: true, subtree:
 - **Dark** - Mysterious and deep
 - **Nature** - Fresh and green
 
-## 📝 Notes
+## Notes
 
 1. Some websites may have anti-crawling mechanisms, loading may be limited
 2. Network permission required for normal use
@@ -543,11 +550,29 @@ new MutationObserver(hideAds).observe(document.body, { childList: true, subtree:
 4. Activation codes are verified locally only, extend for server-side verification if needed
 5. Extension modules execute in WebView, some sites may have CSP restrictions
 
-## 📜 License
+## License
 
 MIT License
 
-## 📜 Changelog
+## Changelog
+
+### v1.9.6 (Community Build)
+**Build System Fixes**
+- Restored buildable state from incomplete open-source release
+- Created ~40 stub files for stripped proprietary modules (auth, billing, cloud, community, stats, premium UI)
+- Added Koin dependency injection (koin-android, koin-androidx-compose) and lifecycle-runtime-compose
+- Fixed DI module (AppModule.kt) and Application class (WebToAppApplication.kt) wiring
+- Fixed compilation errors in WebApp.kt (added missing AppType enum values), MainViewModel.kt, HomeScreen.kt, CreateAppScreen.kt, CreateHtmlAppScreen.kt, KeyManager.kt, SecurityUtils.kt
+- Added ~20 missing i18n string resources to Strings.kt
+- Generated new local signing keystore for independent builds
+- Updated signing configuration in build.gradle.kts for local development
+- Updated Target SDK documentation to Android 15 (API 35)
+
+**Documentation**
+- Added Filipino (Tagalog) README translation (README_FIL.md)
+- Removed all emoji from markdown files
+- Added build-from-source notes for local.properties and debug builds
+- Updated WARP.md with architecture and build guidance
 
 ### v1.9.5
 **New Features**
@@ -759,11 +784,11 @@ MIT License
 - Activation codes, announcements, ad blocking
 - Project template export
 
-## 📬 Contact
+## Contact
 
 Developed independently by shiaho. Feel free to reach out!
 
-### 📱 Social Media
+### Social Media
 
 | Platform | Account | Link |
 |----------|---------|------|
@@ -772,14 +797,14 @@ Developed independently by shiaho. Feel free to reach out!
 | **GitHub** | shiahonb777 | [github.com/shiahonb777/web-to-app](https://github.com/shiahonb777/web-to-app) |
 | **Bilibili** | Video Tutorials | [b23.tv/8mGDo2N](https://b23.tv/8mGDo2N) |
 
-### 💬 Community Groups
+### Community Groups
 
 | Platform | Group ID/Link | Description |
 |----------|---------------|-------------|
 | **QQ Group** | 1041130206 | Daily interaction, updates & latest releases |
 | **Telegram Group** | [t.me/webtoapp777](https://t.me/webtoapp777) | International user community |
 
-### 📧 Contact Info
+### Contact Info
 
 | Method | Account |
 |--------|---------|
@@ -789,7 +814,7 @@ Developed independently by shiaho. Feel free to reach out!
 
 ---
 
-## ⚠️ Legal Disclaimer
+## Legal Disclaimer
 
 > **Important Notice**: By using this software, you acknowledge that you have read, understood, and agreed to all the following terms.
 
@@ -806,7 +831,7 @@ Users should ensure they use this software in **legal and legitimate** scenarios
 - **Parental Supervision**: Reasonable use with minors' informed consent
 - **Educational Research**: For technical learning and security research
 
-⛔ **Strictly prohibited** to use this software for any behavior that infringes on others' personal freedom, privacy, property rights, or other legitimate rights and interests.
+**Strictly prohibited** to use this software for any behavior that infringes on others' personal freedom, privacy, property rights, or other legitimate rights and interests.
 
 ### 3. Special Declaration for Advanced Features
 
@@ -828,10 +853,10 @@ The "Forced Run" and related hardware control features (hereinafter referred to 
 
 To ensure legal and compliant use, users are advised to:
 
-- ✅ Obtain written or electronic consent from the actual device user before use
-- ✅ Develop corresponding usage specifications and management systems in enterprise scenarios
-- ✅ Ensure compliance with relevant educational regulations in educational scenarios
-- ✅ Regularly check and comply with the latest requirements of local laws and regulations
+- Obtain written or electronic consent from the actual device user before use
+- Develop corresponding usage specifications and management systems in enterprise scenarios
+- Ensure compliance with relevant educational regulations in educational scenarios
+- Regularly check and comply with the latest requirements of local laws and regulations
 
 ### 6. Intellectual Property Statement
 
@@ -841,10 +866,10 @@ This software is released under the **MIT Open Source License**. Users may freel
 
 By continuing to use this software, you confirm that:
 
-- ✓ You are at least 18 years old or have obtained consent from a legal guardian
-- ✓ You have fully read and understood all the above terms
-- ✓ You agree to comply with all terms of use and local laws and regulations
-- ✓ You voluntarily assume all risks and responsibilities that may arise from using this software
+- You are at least 18 years old or have obtained consent from a legal guardian
+- You have fully read and understood all the above terms
+- You agree to comply with all terms of use and local laws and regulations
+- You voluntarily assume all risks and responsibilities that may arise from using this software
 
 ---
 
@@ -854,8 +879,14 @@ By continuing to use this software, you confirm that:
 
 ---
 
+## Credits
+
+This fork is maintained by [ramonloganjr](https://github.com/ramonloganjr), building upon the original work of [shiahonb777](https://github.com/shiahonb777/web-to-app).
+
+---
+
 <div align="center">
 
-**Open Source · Free Forever · Star ⭐ to Support**
+**Open Source · Free Forever · Star to Support**
 
 </div>

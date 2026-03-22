@@ -4,9 +4,9 @@
 
 # WebToApp
 
-### 🚀 秒速将网站转换为 Android 应用
+### 秒速将网站转换为 Android 应用
 
-[English](README.md) | **简体中文**
+[English](README.md) | **简体中文** | [Filipino](README_FIL.md)
 
 <p>
   <a href="https://github.com/shiahonb777/web-to-app/stargazers"><img src="https://img.shields.io/github/stars/shiahonb777/web-to-app?style=for-the-badge&logo=github&color=f4c542" alt="Stars"></a>
@@ -23,7 +23,7 @@
 
 <br/>
 
-> 📱 **无需编程** · 手机上直接构建 APK · **无需 Android Studio**
+> **无需编程** · 手机上直接构建 APK · **无需 Android Studio**
 
 <br/>
 
@@ -32,88 +32,88 @@
 ---
 
 <p align="center">
-  <b>🌟 零编程 • 一键构建 • 功能丰富 • 开源免费 🌟</b>
+  <b>零编程 · 一键构建 · 功能丰富 · 开源免费</b>
 </p>
 
 ---
 
-## 📚 目录
+## 目录
 
 <details open>
 <summary><b>点击展开/收起</b></summary>
 
-- [✨ 核心亮点](#-核心亮点)
-- [📸 应用截图](#-应用截图)
-- [🎯 适用场景](#-适用场景)
-- [📦 快速开始](#-快速开始)
-- [📋 功能特性](#-功能特性)
-- [🛠️ 技术栈](#%EF%B8%8F-技术栈)
-- [📁 项目结构](#-项目结构)
-- [📖 使用指南](#-使用指南)
-- [🔧 源码构建](#-源码构建)
-- [🧩 扩展模块系统](#-扩展模块系统)
-- [📢 公告模板系统](#-公告模板系统)
-- [📜 更新日志](#-更新日志)
-- [📬 联系我们](#-联系我们)
+- [核心亮点](#-核心亮点)
+- [应用截图](#-应用截图)
+- [适用场景](#-适用场景)
+- [快速开始](#-快速开始)
+- [功能特性](#-功能特性)
+- [技术栈](#%EF%B8%8F-技术栈)
+- [项目结构](#-项目结构)
+- [使用指南](#-使用指南)
+- [源码构建](#-源码构建)
+- [扩展模块系统](#-扩展模块系统)
+- [公告模板系统](#-公告模板系统)
+- [更新日志](#-更新日志)
+- [联系我们](#-联系我们)
 
 </details>
 
 ---
 
-## ✨ 核心亮点
+## 核心亮点
 
 <table>
 <tr>
 <td width="50%">
 
-### 🌐 核心转换
+### 核心转换
 | 功能 | 说明 |
 |------|------|
-| 🌐 网站转App | 任意网址转独立应用 |
-| 🎬 媒体转App | 图片/视频转全屏应用 |
-| 💻 HTML转App | 支持 React/Vue/Next.js |
-| 📦 一键出包 | 无需 Android Studio |
+| 网站转App | 任意网址转独立应用 |
+| 媒体转App | 图片/视频转全屏应用 |
+| HTML转App | 支持 React/Vue/Next.js |
+| 一键出包 | 无需 Android Studio |
 
 </td>
 <td width="50%">
 
-### 🤖 AI 驱动
+### AI 驱动
 | 功能 | 说明 |
 |------|------|
-| 🧩 扩展模块 | 10个内置 + 30+ 模板 |
-| 🤖 AI 开发 | 自然语言编程 |
-| 🎨 AI 图标 | 智能生成精美图标 |
-| 🎵 音乐搜索 | 在线 BGM + 歌词同步 |
+| 扩展模块 | 10个内置 + 30+ 模板 |
+| AI 开发 | 自然语言编程 |
+| AI 图标 | 智能生成精美图标 |
+| 音乐搜索 | 在线 BGM + 歌词同步 |
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### 🛡️ 安全隐私
+### 安全隐私
 | 功能 | 说明 |
 |------|------|
-| 🔐 APK 加密 | AES-256-GCM 保护 |
-| 🛡️ 浏览器伪装 | UA/指纹伪装 |
-| 🚫 Hosts 拦截 | 域名级广告拦截 |
-| 🌍 独立环境 | 多实例隔离 |
+| APK 加密 | AES-256-GCM 保护 |
+| 浏览器伪装 | UA/指纹伪装 |
+| Hosts 拦截 | 域名级广告拦截 |
+| 独立环境 | 多实例隔离 |
 
 </td>
 <td width="50%">
 
-### ✨ 更多功能
+### 更多功能
 | 功能 | 说明 |
 |------|------|
-| 🖼️ 媒体画廊 | 内置媒体管理器 |
-| 📱 APK 架构 | 多架构支持 |
-| 📋 长按菜单 | 增强上下文菜单 |
-| 🌐 浏览器内核 | 自定义内核配置 |
+| 媒体画廊 | 内置媒体管理器 |
+| APK 架构 | 多架构支持 |
+| 长按菜单 | 增强上下文菜单 |
+| 浏览器内核 | 自定义内核配置 |
 
 </td>
 </tr>
 </table>
 
-## 📸 应用截图
+## 应用截图
 
 <div align="center">
 <p>
@@ -136,13 +136,13 @@
 
 ---
 
-## 🎯 适用场景
+## 适用场景
 
 <table>
 <tr>
 <td>
 
-| 📱 个人用户 | 🏢 企业用户 |
+| 个人用户 | 企业用户 |
 |------------|------------|
 | 网站快捷访问 | 企业内部系统 |
 | 媒体展示应用 | 产品展示应用 |
@@ -152,7 +152,7 @@
 </td>
 <td>
 
-| 👨‍💻 开发者 | 👨‍👩‍👧 家庭用户 |
+| 开发者 | 家庭用户 |
 |-----------|------------|
 | 前端项目打包 | 儿童学习应用 |
 | H5游戏封装 | 屏幕时间控制 |
@@ -163,25 +163,25 @@
 </tr>
 </table>
 
-## 📦 快速开始
+## 快速开始
 
 ```bash
-# 1️⃣ 克隆仓库
+# 1. 克隆仓库
 git clone https://github.com/shiahonb777/web-to-app.git
 
-# 2️⃣ 用 Android Studio 打开
-# 3️⃣ 构建并运行到设备
-# 4️⃣ 开始将网站转换为应用！
+# 2. 用 Android Studio 打开
+# 3. 构建并运行到设备
+# 4. 开始将网站转换为应用！
 ```
 
-> 💡 **或者直接从 [Releases](https://github.com/shiahonb777/web-to-app/releases) 下载 APK**
+> **或者直接从 [Releases](https://github.com/shiahonb777/web-to-app/releases) 下载 APK**
 
 ---
 
-## 📋 功能特性
+## 功能特性
 
 <details>
-<summary><b>🌐 核心功能</b>（点击展开）</summary>
+<summary><b>核心功能</b>（点击展开）</summary>
 
 - **URL转App**：输入任意网址，一键生成独立应用
 - **媒体转App**：支持图片/视频转换为独立应用
@@ -194,7 +194,7 @@ git clone https://github.com/shiahonb777/web-to-app.git
 </details>
 
 <details>
-<summary><b>🧩 扩展模块系统</b></summary>
+<summary><b>扩展模块系统</b></summary>
 
 - **类油猴脚本**：向网页注入自定义 JavaScript/CSS 代码
 - **10个内置模块**：视频下载、B站/抖音/小红书视频提取、视频增强、网页分析、暗黑模式、隐私保护、内容增强、元素屏蔽
@@ -209,7 +209,7 @@ git clone https://github.com/shiahonb777/web-to-app.git
 </details>
 
 <details>
-<summary><b>🤖 AI 模块开发 Agent</b></summary>
+<summary><b>AI 模块开发 Agent</b></summary>
 
 - **自然语言开发**：用自然语言描述需求，AI 自动生成模块代码
 - **语法检查**：自动检查 JavaScript/CSS 语法错误
@@ -221,7 +221,7 @@ git clone https://github.com/shiahonb777/web-to-app.git
 </details>
 
 <details>
-<summary><b>🎨 AI 功能</b></summary>
+<summary><b>AI 功能</b></summary>
 
 - **多供应商支持**：Google Gemini、OpenAI、智谱 GLM、火山引擎、MiniMax、OpenRouter 等
 - **AI HTML 编程**：AI 辅助生成和修改 HTML/CSS/JS 代码
@@ -234,7 +234,7 @@ git clone https://github.com/shiahonb777/web-to-app.git
 </details>
 
 <details>
-<summary><b>✨ 集成功能</b></summary>
+<summary><b>集成功能</b></summary>
 
 - **启动画面**：支持图片/视频启动动画，内置视频裁剪器
 - **背景音乐**：支持为应用添加 BGM 播放列表，可配合歌词同步显示
@@ -258,7 +258,7 @@ git clone https://github.com/shiahonb777/web-to-app.git
 </details>
 
 <details>
-<summary><b>📤 导出功能</b></summary>
+<summary><b>导出功能</b></summary>
 
 - **桌面快捷方式**：创建桌面图标，像原生App一样启动
 - **构建APK安装包**：直接生成独立APK并安装，无需Android Studio
@@ -268,7 +268,7 @@ git clone https://github.com/shiahonb777/web-to-app.git
 </details>
 
 <details>
-<summary><b>🎥 媒体应用功能</b></summary>
+<summary><b>媒体应用功能</b></summary>
 
 - **图片转App**：选择图片生成全屏展示应用
 - **视频转App**：选择视频生成循环播放应用（支持大视频流式打包）
@@ -280,7 +280,7 @@ git clone https://github.com/shiahonb777/web-to-app.git
 </details>
 
 <details>
-<summary><b>🎨 主题系统</b></summary>
+<summary><b>主题系统</b></summary>
 
 - **多种主题**：内置多款精美主题风格
 - **深色模式**：支持跟随系统、手动切换
@@ -290,7 +290,7 @@ git clone https://github.com/shiahonb777/web-to-app.git
 </details>
 
 <details>
-<summary><b>⚡ 应用修改器</b></summary>
+<summary><b>应用修改器</b></summary>
 
 - **应用列表扫描**：自动获取设备上已安装的应用列表
 - **图标/名称修改**：自由修改任意应用的图标和显示名称
@@ -301,27 +301,27 @@ git clone https://github.com/shiahonb777/web-to-app.git
 
 ---
 
-## 🛠️ 技术栈
+## 技术栈
 
 <div align="center">
 
 | 分类 | 技术 |
 |:----:|:-----|
-| 📝 语言 | Kotlin 1.9+ |
-| 🎨 UI | Jetpack Compose + Material 3 |
-| 🏗️ 架构 | MVVM + Repository |
-| 🗄️ 数据库 | Room |
-| 🌐 网络 | OkHttp |
-| 🖼️ 图片 | Coil |
-| 🔐 加密 | AES-256-GCM + PBKDF2 |
-| ✍️ 签名 | JarSigner + Keystore |
-| 🌍 多语言 | i18n 动态切换 |
-| 📱 最低版本 | Android 6.0 (API 23) |
-| 🎯 目标版本 | Android 16 (API 36) |
+| 语言 | Kotlin 1.9+ |
+| UI | Jetpack Compose + Material 3 |
+| 架构 | MVVM + Repository |
+| 数据库 | Room |
+| 网络 | OkHttp |
+| 图片 | Coil |
+| 加密 | AES-256-GCM + PBKDF2 |
+| 签名 | JarSigner + Keystore |
+| 多语言 | i18n 动态切换 |
+| 最低版本 | Android 6.0 (API 23) |
+| 目标版本 | Android 15 (API 35) |
 
 </div>
 
-## 📁 项目结构
+## 项目结构
 
 ```
 app/src/main/java/com/webtoapp/
@@ -384,7 +384,7 @@ app/src/main/java/com/webtoapp/
 └── util/                      # 工具类
 ```
 
-## 📖 使用说明
+## 使用说明
 
 ### 创建网站应用
 1. 点击主页的 "创建应用" 按钮
@@ -488,16 +488,16 @@ signingConfigs {
 ### 内置模块
 | 模块 | 功能 |
 |------|------|
-| ⬇️ 视频下载器 | 自动检测网页视频，支持 MP4 和 Blob 流下载 |
-| 📺 B站视频提取 | 提取 B站最高画质视频和音频流地址 |
-| 🎬 抖音视频提取 | 提取抖音无水印视频地址 |
-| 📱 小红书视频提取 | 提取小红书视频播放地址 |
-| ⚡ 视频增强 | 倍速控制（0.5x-5x）、画中画、后台播放、阻止App跳转 |
-| 🔧 网页分析工具 | 元素审查、网络监控、Cookie管理、Console注入 |
-| 🌙 高级暗黑模式 | 智能色彩反转、图片亮度控制、定时开关 |
-| 🛡️ 隐私保护 | 去广告、反指纹追踪、点击劫持保护、外链警告 |
-| 📝 内容增强 | 强制复制、划词翻译、长截图、Markdown转化 |
-| 🚫 元素屏蔽 | 屏蔽网页广告、弹窗、指定元素 |
+| 视频下载器 | 自动检测网页视频，支持 MP4 和 Blob 流下载 |
+| B站视频提取 | 提取 B站最高画质视频和音频流地址 |
+| 抖音视频提取 | 提取抖音无水印视频地址 |
+| 小红书视频提取 | 提取小红书视频播放地址 |
+| 视频增强 | 倍速控制（0.5x-5x）、画中画、后台播放、阻止App跳转 |
+| 网页分析工具 | 元素审查、网络监控、Cookie管理、Console注入 |
+| 高级暗黑模式 | 智能色彩反转、图片亮度控制、定时开关 |
+| 隐私保护 | 去广告、反指纹追踪、点击劫持保护、外链警告 |
+| 内容增强 | 强制复制、划词翻译、长截图、Markdown转化 |
+| 元素屏蔽 | 屏蔽网页广告、弹窗、指定元素 |
 
 ### 模块分类
 - 内容过滤、内容增强、样式修改、主题美化
@@ -592,6 +592,24 @@ function shareCurrentPage() {
 MIT License
 
 ## 更新日志
+
+### v1.9.6 (Community Build)
+**构建系统修复**
+- 从不完整的开源发布中恢复可构建状态
+- 为被移除的专有模块（认证、计费、云服务、社区、统计、高级UI）创建约40个桩文件
+- 添加 Koin 依赖注入（koin-android、koin-androidx-compose）和 lifecycle-runtime-compose
+- 修复 DI 模块（AppModule.kt）和 Application 类（WebToAppApplication.kt）的连接
+- 修复 WebApp.kt（添加缺失的 AppType 枚举值）、MainViewModel.kt、HomeScreen.kt、CreateAppScreen.kt、CreateHtmlAppScreen.kt、KeyManager.kt、SecurityUtils.kt 的编译错误
+- 为 Strings.kt 添加约20个缺失的 i18n 字符串资源
+- 生成新的本地签名密钥库用于独立构建
+- 更新 build.gradle.kts 中的签名配置以支持本地开发
+- 更新目标 SDK 文档为 Android 15 (API 35)
+
+**文档**
+- 添加菲律宾语（他加禄语）README 翻译（README_FIL.md）
+- 移除所有 markdown 文件中的 emoji
+- 添加 local.properties 和 debug 构建的源码构建说明
+- 更新 WARP.md 的架构和构建指南
 
 ### v1.9.5
 **新功能**
@@ -829,7 +847,7 @@ MIT License
 
 本应用由作者（shiaho）独立开发，有任何问题都可以找我！
 
-### 📱 社交媒体
+### 社交媒体
 
 | 平台 | 账号 | 链接 |
 |------|------|------|
@@ -838,14 +856,14 @@ MIT License
 | **GitHub** | shiahonb777 | [github.com/shiahonb777/web-to-app](https://github.com/shiahonb777/web-to-app) |
 | **Bilibili** | 视频教程 | [b23.tv/8mGDo2N](https://b23.tv/8mGDo2N) |
 
-### 💬 交流群
+### 交流群
 
 | 平台 | 群号/链接 | 说明 |
 |------|----------|------|
 | **QQ群** | 1041130206 | 作者每天互动，发布更新消息和最新安装包 |
 | **Telegram群** | [t.me/webtoapp777](https://t.me/webtoapp777) | 国际用户交流群 |
 
-### 📧 联系方式
+### 联系方式
 
 | 方式 | 账号 |
 |------|------|
@@ -855,7 +873,7 @@ MIT License
 
 ---
 
-## ⚠️ 法律声明与免责条款
+## 法律声明与免责条款
 
 > **重要提示**：使用本软件即表示您已阅读、理解并同意以下全部条款。
 
@@ -872,7 +890,7 @@ MIT License
 - **家长监护**：在未成年人知情同意下的合理使用
 - **教育研究**：用于技术学习和安全研究
 
-⛔ **严禁**将本软件用于任何侵犯他人人身自由、隐私权、财产权等合法权益的行为。
+**严禁**将本软件用于任何侵犯他人人身自由、隐私权、财产权等合法权益的行为。
 
 ### 三、高级功能特别声明
 
@@ -894,10 +912,10 @@ MIT License
 
 为确保合法合规使用，建议用户：
 
-- ✅ 在使用前获取设备实际使用者的书面或电子形式同意
-- ✅ 在企业场景下制定相应的使用规范和管理制度
-- ✅ 在教育场景下确保符合相关教育法规要求
-- ✅ 定期检查并遵守当地法律法规的最新要求
+- 在使用前获取设备实际使用者的书面或电子形式同意
+- 在企业场景下制定相应的使用规范和管理制度
+- 在教育场景下确保符合相关教育法规要求
+- 定期检查并遵守当地法律法规的最新要求
 
 ### 六、知识产权声明
 
@@ -907,13 +925,19 @@ MIT License
 
 继续使用本软件即表示您：
 
-- ✓ 已年满18周岁或已获得法定监护人同意
-- ✓ 已完整阅读并理解上述所有条款
-- ✓ 同意遵守所有使用条款和当地法律法规
-- ✓ 自愿承担使用本软件可能产生的一切风险和责任
+- 已年满18周岁或已获得法定监护人同意
+- 已完整阅读并理解上述所有条款
+- 同意遵守所有使用条款和当地法律法规
+- 自愿承担使用本软件可能产生的一切风险和责任
 
 ---
 
 *本声明自发布之日起生效，开发者保留随时修改本声明的权利。*
 
 *最后更新：2026年1月*
+
+---
+
+## 致谢
+
+本分支由 [ramonloganjr](https://github.com/ramonloganjr) 维护，基于 [shiahonb777](https://github.com/shiahonb777/web-to-app) 的原始作品构建。

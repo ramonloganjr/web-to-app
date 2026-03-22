@@ -10,6 +10,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase
 import com.webtoapp.ui.data.converter.Converters
 import com.webtoapp.data.dao.WebAppDao
 import com.webtoapp.data.dao.AppCategoryDao
+import com.webtoapp.data.dao.AppUsageStatsDao
 import com.webtoapp.data.model.WebApp
 import com.webtoapp.data.model.AppCategory
 
@@ -26,6 +27,7 @@ abstract class AppDatabase : RoomDatabase() {
 
     abstract fun webAppDao(): WebAppDao
     abstract fun appCategoryDao(): AppCategoryDao
+    abstract fun appUsageStatsDao(): AppUsageStatsDao
 
     companion object {
         private const val DATABASE_NAME = "webtoapp.db"

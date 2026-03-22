@@ -14,7 +14,12 @@ enum class AppType {
     VIDEO,    // Video播放应用（单视频，兼容旧版）
     HTML,     // LocalHTML应用（支持HTML+CSS+JS）
     GALLERY,  // Media画廊应用（多图片/视频，支持分类、排序、连续播放）
-    FRONTEND  // 前端项目应用（Vue/React/Vite 等构建产物）
+    FRONTEND, // 前端项目应用（Vue/React/Vite 等构建产物）
+    NODEJS_APP, // Node.js 应用
+    WORDPRESS,  // WordPress 应用
+    PHP_APP,    // PHP 应用
+    PYTHON_APP, // Python 应用
+    GO_APP      // Go 应用
 }
 
 /**

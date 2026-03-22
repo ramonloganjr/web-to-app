@@ -8,10 +8,10 @@ android {
 
     signingConfigs {
         create("shiaho") {
-            storeFile = file("/Users/shiaho/Desktop/shiaho-key.jks")
-            storePassword = "shiaho"
-            keyAlias = "shiaho"
-            keyPassword = "shiaho"
+            storeFile = file("webtoapp-debug.jks")
+            storePassword = "webtoapp123"
+            keyAlias = "webtoapp"
+            keyPassword = "webtoapp123"
         }
     }
     namespace = "com.webtoapp"
@@ -157,6 +157,13 @@ dependencies {
     implementation("com.google.zxing:core:3.5.2")
     implementation("com.journeyapps:zxing-android-embedded:4.3.0")
     
+    // Koin for Android
+    implementation("io.insert-koin:koin-android:3.5.0")
+    implementation("io.insert-koin:koin-androidx-compose:3.5.0")
+    
+    // Lifecycle
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.2")
+
     // Testing
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")

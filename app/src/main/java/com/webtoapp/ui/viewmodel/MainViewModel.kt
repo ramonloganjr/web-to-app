@@ -24,10 +24,11 @@ import kotlinx.coroutines.flow.first
 /**
  * Main screen ViewModel
  */
-class MainViewModel(application: Application) : AndroidViewModel(application) {
-
-    private val repository: WebAppRepository = WebToAppApplication.repository
+class MainViewModel(
+    application: Application,
+    private val repository: WebAppRepository = WebToAppApplication.repository,
     private val categoryRepository: AppCategoryRepository = WebToAppApplication.categoryRepository
+) : AndroidViewModel(application) {
 
     // All apps list
     val webApps: StateFlow<List<WebApp>> = repository.allWebApps
@@ -1224,6 +1225,172 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
             } catch (e: Exception) {
                 _uiState.value = UiState.Error("Move failed: ${e.message}")
             }
+        }
+    }
+
+    // === Stub methods for new app types ===
+    
+    fun saveZipHtmlApp(
+        name: String,
+        extractedDir: String,
+        entryFile: String,
+        iconUri: Uri?,
+        enableJavaScript: Boolean = true,
+        enableLocalStorage: Boolean = true,
+        landscapeMode: Boolean = false
+    ) {
+        viewModelScope.launch {
+            _uiState.value = UiState.Loading
+            try {
+                val context = getApplication<Application>()
+                val savedIconPath = iconUri?.let { uri ->
+                    withContext(Dispatchers.IO) { IconStorage.saveIconFromUri(context, uri) }
+                }
+                val themeManager = ThemeManager.getInstance(context)
+                val currentThemeType = themeManager.themeTypeFlow.first().name
+                val categoryId = _selectedCategoryId.value?.takeIf { it > 0 }
+                val webApp = WebApp(
+                    name = name.ifBlank { "HTML App" },
+                    url = "",
+                    iconPath = savedIconPath,
+                    appType = AppType.HTML,
+                    htmlConfig = HtmlConfig(
+                        projectDir = extractedDir,
+                        entryFile = entryFile,
+                        enableJavaScript = enableJavaScript,
+                        enableLocalStorage = enableLocalStorage,
+                        landscapeMode = landscapeMode
+                    ),
+                    themeType = currentThemeType,
+                    categoryId = categoryId
+                )
+                withContext(Dispatchers.IO) { repository.createWebApp(webApp) }
+                _uiState.value = UiState.Success("HTML app created")
+            } catch (e: Exception) {
+                _uiState.value = UiState.Error("Creation failed: ${e.message}")
+            }
+        }
+    }
+
+    fun saveWordPressApp(name: String, wordpressConfig: Any?, iconUri: Uri?, themeType: String) {
+        viewModelScope.launch {
+            _uiState.value = UiState.Loading
+            try {
+                val context = getApplication<Application>()
+                val savedIconPath = iconUri?.let { uri ->
+                    withContext(Dispatchers.IO) { IconStorage.saveIconFromUri(context, uri) }
+                }
+                val tm = ThemeManager.getInstance(context)
+                val currentThemeType = tm.themeTypeFlow.first().name
+                val categoryId = _selectedCategoryId.value?.takeIf { it > 0 }
+                val webApp = WebApp(name = name.ifBlank { "WordPress App" }, url = "", iconPath = savedIconPath, appType = AppType.WORDPRESS, themeType = currentThemeType, categoryId = categoryId)
+                withContext(Dispatchers.IO) { repository.createWebApp(webApp) }
+                _uiState.value = UiState.Success("WordPress app created")
+            } catch (e: Exception) { _uiState.value = UiState.Error("Creation failed: ${e.message}") }
+        }
+    }
+
+    fun saveNodeJsApp(name: String, nodejsConfig: Any?, iconUri: Uri?, themeType: String) {
+        viewModelScope.launch {
+            _uiState.value = UiState.Loading
+            try {
+                val context = getApplication<Application>()
+                val savedIconPath = iconUri?.let { uri -> withContext(Dispatchers.IO) { IconStorage.saveIconFromUri(context, uri) } }
+                val tm = ThemeManager.getInstance(context)
+                val currentThemeType = tm.themeTypeFlow.first().name
+                val categoryId = _selectedCategoryId.value?.takeIf { it > 0 }
+                val webApp = WebApp(name = name.ifBlank { "Node.js App" }, url = "", iconPath = savedIconPath, appType = AppType.NODEJS_APP, themeType = currentThemeType, categoryId = categoryId)
+                withContext(Dispatchers.IO) { repository.createWebApp(webApp) }
+                _uiState.value = UiState.Success("Node.js app created")
+            } catch (e: Exception) { _uiState.value = UiState.Error("Creation failed: ${e.message}") }
+        }
+    }
+
+    fun savePhpApp(name: String, phpAppConfig: Any?, iconUri: Uri?, themeType: String) {
+        viewModelScope.launch {
+            _uiState.value = UiState.Loading
+            try {
+                val context = getApplication<Application>()
+                val savedIconPath = iconUri?.let { uri -> withContext(Dispatchers.IO) { IconStorage.saveIconFromUri(context, uri) } }
+                val tm = ThemeManager.getInstance(context)
+                val currentThemeType = tm.themeTypeFlow.first().name
+                val categoryId = _selectedCategoryId.value?.takeIf { it > 0 }
+                val webApp = WebApp(name = name.ifBlank { "PHP App" }, url = "", iconPath = savedIconPath, appType = AppType.PHP_APP, themeType = currentThemeType, categoryId = categoryId)
+                withContext(Dispatchers.IO) { repository.createWebApp(webApp) }
+                _uiState.value = UiState.Success("PHP app created")
+            } catch (e: Exception) { _uiState.value = UiState.Error("Creation failed: ${e.message}") }
+        }
+    }
+
+    fun savePythonApp(name: String, pythonAppConfig: Any?, iconUri: Uri?, themeType: String) {
+        viewModelScope.launch {
+            _uiState.value = UiState.Loading
+            try {
+                val context = getApplication<Application>()
+                val savedIconPath = iconUri?.let { uri -> withContext(Dispatchers.IO) { IconStorage.saveIconFromUri(context, uri) } }
+                val tm = ThemeManager.getInstance(context)
+                val currentThemeType = tm.themeTypeFlow.first().name
+                val categoryId = _selectedCategoryId.value?.takeIf { it > 0 }
+                val webApp = WebApp(name = name.ifBlank { "Python App" }, url = "", iconPath = savedIconPath, appType = AppType.PYTHON_APP, themeType = currentThemeType, categoryId = categoryId)
+                withContext(Dispatchers.IO) { repository.createWebApp(webApp) }
+                _uiState.value = UiState.Success("Python app created")
+            } catch (e: Exception) { _uiState.value = UiState.Error("Creation failed: ${e.message}") }
+        }
+    }
+
+    fun saveGoApp(name: String, goAppConfig: Any?, iconUri: Uri?, themeType: String) {
+        viewModelScope.launch {
+            _uiState.value = UiState.Loading
+            try {
+                val context = getApplication<Application>()
+                val savedIconPath = iconUri?.let { uri -> withContext(Dispatchers.IO) { IconStorage.saveIconFromUri(context, uri) } }
+                val tm = ThemeManager.getInstance(context)
+                val currentThemeType = tm.themeTypeFlow.first().name
+                val categoryId = _selectedCategoryId.value?.takeIf { it > 0 }
+                val webApp = WebApp(name = name.ifBlank { "Go App" }, url = "", iconPath = savedIconPath, appType = AppType.GO_APP, themeType = currentThemeType, categoryId = categoryId)
+                withContext(Dispatchers.IO) { repository.createWebApp(webApp) }
+                _uiState.value = UiState.Success("Go app created")
+            } catch (e: Exception) { _uiState.value = UiState.Error("Creation failed: ${e.message}") }
+        }
+    }
+
+    fun updatePhpApp(appId: Long, name: String, phpAppConfig: Any?, iconUri: Uri?, themeType: String) {
+        viewModelScope.launch {
+            try {
+                val app = repository.getWebAppById(appId).first() ?: return@launch
+                repository.updateWebApp(app.copy(name = name))
+                _uiState.value = UiState.Success("PHP app updated")
+            } catch (e: Exception) { _uiState.value = UiState.Error("Update failed: ${e.message}") }
+        }
+    }
+
+    fun updatePythonApp(appId: Long, name: String, pythonAppConfig: Any?, iconUri: Uri?, themeType: String) {
+        viewModelScope.launch {
+            try {
+                val app = repository.getWebAppById(appId).first() ?: return@launch
+                repository.updateWebApp(app.copy(name = name))
+                _uiState.value = UiState.Success("Python app updated")
+            } catch (e: Exception) { _uiState.value = UiState.Error("Update failed: ${e.message}") }
+        }
+    }
+
+    fun updateGoApp(appId: Long, name: String, goAppConfig: Any?, iconUri: Uri?, themeType: String) {
+        viewModelScope.launch {
+            try {
+                val app = repository.getWebAppById(appId).first() ?: return@launch
+                repository.updateWebApp(app.copy(name = name))
+                _uiState.value = UiState.Success("Go app updated")
+            } catch (e: Exception) { _uiState.value = UiState.Error("Update failed: ${e.message}") }
+        }
+    }
+
+    fun updateNodeJsApp(appId: Long, name: String, nodejsConfig: Any?, iconUri: Uri?, themeType: String) {
+        viewModelScope.launch {
+            try {
+                val app = repository.getWebAppById(appId).first() ?: return@launch
+                repository.updateWebApp(app.copy(name = name))
+                _uiState.value = UiState.Success("Node.js app updated")
+            } catch (e: Exception) { _uiState.value = UiState.Error("Update failed: ${e.message}") }
         }
     }
 }

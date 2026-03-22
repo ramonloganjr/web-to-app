@@ -52,6 +52,7 @@ fun CreateHtmlAppScreen(
         iconUri: Uri?,
         themeType: String
     ) -> Unit,
+    onZipCreated: ((String, String, String, Uri?, Boolean, Boolean, Boolean) -> Unit)? = null,
     importDir: String? = null,  // 从AI编程导入的目录
     importProjectName: String? = null  // Import的项目名称
 ) {

@@ -26211,6 +26211,108 @@ object Strings {
         AppLanguage.ENGLISH -> "Collapse"
         AppLanguage.ARABIC -> "طي"
     }
+
+    // === Missing string stubs ===
+    val domesticDirectFaster: String get() = when (lang) {
+        AppLanguage.CHINESE -> "国内直连更快"
+        AppLanguage.ENGLISH -> "Domestic direct connection faster"
+        AppLanguage.ARABIC -> "اتصال مباشر محلي أسرع"
+    }
+    val aiHtmlCoding: String get() = when (lang) {
+        AppLanguage.CHINESE -> "AI HTML编程"
+        AppLanguage.ENGLISH -> "AI HTML Coding"
+        AppLanguage.ARABIC -> "برمجة HTML بالذكاء الاصطناعي"
+    }
+    val menuAiHtmlCoding: String get() = when (lang) {
+        AppLanguage.CHINESE -> "AI HTML编程"
+        AppLanguage.ENGLISH -> "AI HTML Coding"
+        AppLanguage.ARABIC -> "برمجة HTML بالذكاء الاصطناعي"
+    }
+    val enhancedMode: String get() = when (lang) {
+        AppLanguage.CHINESE -> "增强模式"
+        AppLanguage.ENGLISH -> "Enhanced Mode"
+        AppLanguage.ARABIC -> "الوضع المحسّن"
+    }
+    val uiMode: String get() = when (lang) {
+        AppLanguage.CHINESE -> "UI 模式"
+        AppLanguage.ENGLISH -> "UI Mode"
+        AppLanguage.ARABIC -> "وضع واجهة المستخدم"
+    }
+    val selectUiStyleHint: String get() = when (lang) {
+        AppLanguage.CHINESE -> "选择界面风格"
+        AppLanguage.ENGLISH -> "Select UI style"
+        AppLanguage.ARABIC -> "اختر نمط الواجهة"
+    }
+    val enhancedModeEnabled: String get() = when (lang) {
+        AppLanguage.CHINESE -> "增强模式已启用"
+        AppLanguage.ENGLISH -> "Enhanced mode enabled"
+        AppLanguage.ARABIC -> "تم تفعيل الوضع المحسّن"
+    }
+    val enjoyImmersiveExperience: String get() = when (lang) {
+        AppLanguage.CHINESE -> "享受沉浸式体验"
+        AppLanguage.ENGLISH -> "Enjoy immersive experience"
+        AppLanguage.ARABIC -> "استمتع بتجربة غامرة"
+    }
+    val particleEffectsEnhancedHint: String get() = when (lang) {
+        AppLanguage.CHINESE -> "粒子效果（增强模式）"
+        AppLanguage.ENGLISH -> "Particle effects (enhanced mode)"
+        AppLanguage.ARABIC -> "تأثيرات الجسيمات (الوضع المحسّن)"
+    }
+    val enhancedVersion: String get() = when (lang) {
+        AppLanguage.CHINESE -> "增强版"
+        AppLanguage.ENGLISH -> "Enhanced"
+        AppLanguage.ARABIC -> "محسّن"
+    }
+    val defaultMode: String get() = when (lang) {
+        AppLanguage.CHINESE -> "默认模式"
+        AppLanguage.ENGLISH -> "Default"
+        AppLanguage.ARABIC -> "الافتراضي"
+    }
+    val uiEnhancedMode: String get() = when (lang) {
+        AppLanguage.CHINESE -> "增强模式"
+        AppLanguage.ENGLISH -> "Enhanced"
+        AppLanguage.ARABIC -> "محسّن"
+    }
+    val defaultModeDesc: String get() = when (lang) {
+        AppLanguage.CHINESE -> "标准界面风格"
+        AppLanguage.ENGLISH -> "Standard UI style"
+        AppLanguage.ARABIC -> "نمط واجهة قياسي"
+    }
+    val enhancedModeDesc: String get() = when (lang) {
+        AppLanguage.CHINESE -> "增强视觉效果"
+        AppLanguage.ENGLISH -> "Enhanced visual effects"
+        AppLanguage.ARABIC -> "تأثيرات بصرية محسّنة"
+    }
+    val featureHtmlCoding: String get() = when (lang) {
+        AppLanguage.CHINESE -> "HTML 编程"
+        AppLanguage.ENGLISH -> "HTML Coding"
+        AppLanguage.ARABIC -> "برمجة HTML"
+    }
+    val featureHtmlCodingImage: String get() = when (lang) {
+        AppLanguage.CHINESE -> "HTML 编程（图片）"
+        AppLanguage.ENGLISH -> "HTML Coding (Image)"
+        AppLanguage.ARABIC -> "برمجة HTML (صورة)"
+    }
+    val featureHtmlCodingDesc: String get() = when (lang) {
+        AppLanguage.CHINESE -> "AI 辅助 HTML 编程"
+        AppLanguage.ENGLISH -> "AI-assisted HTML coding"
+        AppLanguage.ARABIC -> "برمجة HTML بمساعدة الذكاء الاصطناعي"
+    }
+    val featureHtmlCodingImageDesc: String get() = when (lang) {
+        AppLanguage.CHINESE -> "AI 图片转 HTML 编程"
+        AppLanguage.ENGLISH -> "AI image-to-HTML coding"
+        AppLanguage.ARABIC -> "تحويل الصور إلى HTML بالذكاء الاصطناعي"
+    }
+    val htmlCodingDesc: String get() = when (lang) {
+        AppLanguage.CHINESE -> "HTML 编程场景"
+        AppLanguage.ENGLISH -> "HTML coding scenario"
+        AppLanguage.ARABIC -> "سيناريو برمجة HTML"
+    }
+    val htmlCodingImageDesc: String get() = when (lang) {
+        AppLanguage.CHINESE -> "图片转 HTML 场景"
+        AppLanguage.ENGLISH -> "Image-to-HTML scenario"
+        AppLanguage.ARABIC -> "سيناريو تحويل الصور إلى HTML"
+    }
 }
 
 

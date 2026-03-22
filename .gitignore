@@ -79,3 +79,6 @@ obj/
 .idea/encodings.xml
 .idea/scopes/scope_settings.xml
 .idea/vcs.xml
+
+# IDE / Editor
+.vscode/
